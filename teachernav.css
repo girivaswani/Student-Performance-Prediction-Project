@@ -1,0 +1,23 @@
+.navbar{
+    /* background-image: linear-gradient(to right, #5b6066 , #272e36); */
+    background-color: #32373d;
+    
+  }
+  /*#32373d*/
+  .link-1 {
+    transition: 0.3s ease;
+    background: #32373d;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    /* border-top: 4px solid #3fa46a; */
+    /* border-bottom: 4px solid #3fa46a; */
+    padding: 10px 0;
+    margin: 0 10px; 
+  }
+  .link-1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    color: #fff;
+    /* padding: 6px 0;  */
+  }

@@ -1,0 +1,87 @@
+/* Three columns side by side */
+    
+.row-aashish{
+    margin: auto;
+}
+.column-aashish{
+    float: left;
+    width: 32.2%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .column-aashish-2{
+    float: left;
+    width: 32.2%;
+    margin-bottom: 16px;
+    margin-left: 10%;
+    padding: 0 8px;
+  }
+
+  .centre-aashish{
+      width: 50%;
+      height: 10%;
+      margin-left: 25%;
+  }
+
+  .text-centre{
+      text-align: center;
+  }
+
+  .h2-aashish{
+      margin: 50px;
+  }
+
+  .li-aashish{
+      font-size: large;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column-aashish{
+      width: 100%;
+      display: block;
+    }
+    .column-aashish-2{
+        margin-left: 0;
+        width: 100%;
+        display: block;
+      }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card-aashish{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container-aashish{
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container-aashish::after, .row-aashish::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title-aashish{
+    color: grey;
+  }
+  
+  .button-aashish{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:#008e94;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button-aashish:hover {
+    opacity: 0.8;
+  }

@@ -1,0 +1,11 @@
+ 
+Select_Student:
+    $_SESSION['class_name'] 
+    $_SESSION['sub_id']
+
+getstudent:
+    $_SESSION['Student_id']
+
+login:
+    $_SESSION['teacher_id']
+    $_SESSION['stud_id']
